@@ -76,7 +76,7 @@ ul {
 /* Hero Section with Background */
 .hero {
   height: 100vh;
-  background: url('./assets/background.jpg') center/cover no-repeat;
+  background: url('/Victor-Portfolio/assets/background.jpg') center/cover no-repeat;
   position: relative;
   color: white;
 }
