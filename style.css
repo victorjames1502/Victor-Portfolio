@@ -1,108 +1,78 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Victor Godai | Lead SRE</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: #f5f5f5;
+  color: #333;
+}
 
-  <header>
-    <nav>
-      <ul class="navbar">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#certificates">Certificates</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
 
-  <section id="home">
-    <div class="container">
-      <h1>Hi, I'm <span class="highlight">Victor Godai</span></h1>
-      <h2>Lead Site Reliability Engineer</h2>
-      <p>Building calm in chaos through scalable, automated systems.</p>
-    </div>
-  </section>
+h2 {
+  color: #0e75b6;
+  margin-bottom: 10px;
+}
 
-  <section id="about">
-    <div class="container">
-      <h2>About Me</h2>
-      <p>Lead SRE with 10+ years of experience in enterprise-class system infrastructures, CI/CD pipelines, and cloud-native architectures.</p>
-    </div>
-  </section>
+ul {
+  list-style: square inside;
+  margin: 10px 0 20px 0;
+}
 
-  <section id="projects">
-    <div class="container">
-      <h2>Projects</h2>
-      <ul>
-        <li><strong>OCI Cloud Migration</strong> – High-availability design for healthcare systems.</li>
-        <li><strong>Jenkins Blue-Green Deployments</strong> – Reduced incidents by 70%.</li>
-      </ul>
-    </div>
-  </section>
+a {
+  color: #0e75b6;
+  text-decoration: none;
+}
 
-  <section id="experience">
-    <div class="container">
-      <h2>Experience</h2>
-      <h3>Oracle (2017–Present)</h3>
-      <p>Lead Site Reliability Engineer</p>
-      <ul>
-        <li>CI/CD automation</li>
-        <li>OCI cloud infrastructure</li>
-      </ul>
+.hero {
+  background: #0e75b6;
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+}
 
-      <h3>NTT Data (2015–2017)</h3>
-      <p>Senior System Administrator</p>
-    </div>
-  </section>
+nav.navbar {
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
 
-  <section id="education">
-    <div class="container">
-      <h2>Education</h2>
-      <p>Bachelor of Engineering in Computer Science</p>
-    </div>
-  </section>
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 20px;
+}
 
-  <section id="skills">
-    <div class="container">
-      <h2>Skills</h2>
-      <ul>
-        <li>AWS, OCI</li>
-        <li>Kubernetes, Docker</li>
-        <li>Terraform, Jenkins, ArgoCD</li>
-        <li>Prometheus, Grafana, Splunk</li>
-      </ul>
-    </div>
-  </section>
+.logo {
+  font-weight: bold;
+  color: #0e75b6;
+}
 
-  <section id="certificates">
-    <div class="container">
-      <h2>Certificates</h2>
-      <ul>
-        <li>AWS Certified Cloud Practitioner</li>
-        <li>Red Hat Certified Engineer (RHCE)</li>
-      </ul>
-    </div>
-  </section>
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
 
-  <section id="contact">
-    <div class="container">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:victorgodai1502@gmail.com">victorgodai1502@gmail.com</a></p>
-      <p>LinkedIn: <a href="https://linkedin.com/in/victor-godai" target="_blank">linkedin.com/in/victor-godai</a></p>
-    </div>
-  </section>
+.nav-links li a {
+  color: #333;
+  font-weight: 500;
+  padding: 8px 12px;
+}
 
-  <footer>
-    <p>&copy; 2024 Victor Godai</p>
-  </footer>
+.nav-links li a:hover {
+  background-color: #0e75b6;
+  color: white;
+  border-radius: 4px;
+}
 
-</body>
-</html>
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #eaeaea;
+}
