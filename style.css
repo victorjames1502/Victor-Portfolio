@@ -76,7 +76,7 @@ ul {
 /* Hero Section with Background */
 .hero {
   height: 100vh;
-  background: url('assets/background.jpg') center/cover no-repeat;
+  background: url('./assets/background.jpg') center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
