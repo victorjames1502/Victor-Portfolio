@@ -1,4 +1,4 @@
-/* Reset & Base Styles */
+/* Reset & Base */
 * {
   margin: 0;
   padding: 0;
@@ -7,8 +7,8 @@
 
 body {
   font-family: 'Segoe UI', sans-serif;
-  background-color: #f9f9f9;
-  color: #333;
+  background-color: #111;
+  color: #fff;
   line-height: 1.6;
 }
 
@@ -22,45 +22,36 @@ ul {
   padding-left: 20px;
 }
 
-h2 {
-  color: #0e75b6;
-  margin-bottom: 10px;
-}
-
-p {
-  margin: 10px 0;
-}
-
+/* Container */
 .container {
   max-width: 1000px;
   margin: 0 auto;
   padding: 40px 20px;
 }
 
-/* Navbar Styles */
+/* Navbar */
 .navbar {
-  background-color: #fff;
-  border-bottom: 1px solid #ddd;
+  background-color: #000;
   position: sticky;
   top: 0;
   width: 100%;
   z-index: 999;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  border-bottom: 1px solid #333;
 }
 
 .nav-container {
-  max-width: 1000px;
-  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 12px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 14px 20px;
 }
 
 .logo {
+  color: #0e75b6;
   font-size: 22px;
   font-weight: bold;
-  color: #0e75b6;
 }
 
 .nav-links {
@@ -70,34 +61,51 @@ p {
 }
 
 .nav-links li a {
+  color: #fff;
+  font-weight: 500;
   padding: 6px 10px;
   border-radius: 4px;
-  font-weight: 500;
-  color: #333;
   transition: all 0.2s ease-in-out;
 }
 
 .nav-links li a:hover {
   background-color: #0e75b6;
+  color: #fff;
+}
+
+/* Hero Section with Background */
+.hero {
+  height: 100vh;
+  background: url('assets/background.jpg') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
   color: white;
 }
 
-/* Hero Section */
-.hero {
-  background-color: #0e75b6;
-  color: white;
+.hero .overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
   text-align: center;
-  padding: 80px 20px;
+  padding: 20px;
 }
 
 .hero h2 {
-  font-size: 36px;
+  font-size: 40px;
   margin-bottom: 10px;
 }
 
 .hero h3 {
   font-size: 24px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .hero p {
@@ -106,20 +114,20 @@ p {
   margin: 0 auto;
 }
 
-/* Section Styles */
+/* Section Styling */
 section {
-  background-color: #fff;
-  margin-bottom: 20px;
-  padding: 40px 20px;
+  padding: 60px 20px;
+  background-color: #111;
 }
 
 section:nth-of-type(even) {
-  background-color: #f1f1f1;
+  background-color: #1a1a1a;
 }
 
-section h2 {
+h2 {
   margin-bottom: 16px;
   font-size: 24px;
+  color: #0e75b6;
 }
 
 section ul li {
@@ -128,10 +136,11 @@ section ul li {
 
 /* Footer */
 footer {
-  text-align: center;
+  background-color: #000;
   padding: 20px;
-  background-color: #eaeaea;
+  text-align: center;
   font-size: 14px;
+  color: #aaa;
 }
 
 /* Responsive */
@@ -153,9 +162,5 @@ footer {
 
   .hero h3 {
     font-size: 20px;
-  }
-
-  .container {
-    padding: 20px;
   }
 }
