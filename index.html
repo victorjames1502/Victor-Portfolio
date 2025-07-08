@@ -1,110 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Victor Godai | Lead SRE</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <header>
-    <nav class="navbar">
-  <div class="nav-container">
-    <h1 class="logo">Victor Godai</h1>
-    <ul class="nav-links">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#experience">Experience</a></li>
-      <li><a href="#education">Education</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#certificates">Certificates</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </div>
-</nav>
-  </header>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <h1 class="logo">Victor Godai</h1>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
 
-  <section id="home">
+  <!-- Hero Section -->
+  <section id="home" class="hero">
     <div class="container">
-      <h1>Hi, I'm <span class="highlight">Victor Godai</span></h1>
-      <h2>Lead Site Reliability Engineer</h2>
-      <p>Building calm in chaos through scalable, automated systems.</p>
+      <h2>Hi, I'm Victor Godai</h2>
+      <h3>Lead Site Reliability Engineer</h3>
+      <p>Building calm in chaos through scalable, automated systems</p>
     </div>
   </section>
 
+  <!-- About -->
   <section id="about">
     <div class="container">
       <h2>About Me</h2>
-      <p>Lead SRE with 10+ years of experience in enterprise-class system infrastructures, CI/CD pipelines, and cloud-native architectures.</p>
+      <p>I’m a Lead SRE with 10+ years of experience in architecting, building, and enhancing enterprise-class systems. I specialize in cloud-native platforms, CI/CD automation, and system resilience.</p>
     </div>
   </section>
 
+  <!-- Projects -->
   <section id="projects">
     <div class="container">
       <h2>Projects</h2>
       <ul>
-        <li><strong>OCI Cloud Migration</strong> – High-availability design for healthcare systems.</li>
-        <li><strong>Jenkins Blue-Green Deployments</strong> – Reduced incidents by 70%.</li>
+        <li><strong>OCI Cloud Migration:</strong> Designed and led HA/DR infrastructure for Oracle healthcare platforms.</li>
+        <li><strong>CI/CD Pipeline Automation:</strong> Built Jenkins-based multi-environment deployment systems.</li>
+        <li><strong>Observability Framework:</strong> Implemented Grafana, Prometheus & Splunk dashboards for SLO monitoring.</li>
       </ul>
     </div>
   </section>
 
+  <!-- Experience -->
   <section id="experience">
     <div class="container">
       <h2>Experience</h2>
-      <h3>Oracle (2017–Present)</h3>
+      <h3>Oracle (Feb 2017 – Present)</h3>
       <p>Lead Site Reliability Engineer</p>
       <ul>
-        <li>CI/CD automation</li>
-        <li>OCI cloud infrastructure</li>
+        <li>Automated CI/CD pipelines and deployment orchestration using Jenkins & ArgoCD.</li>
+        <li>Led on-prem to cloud (OCI) migration for 100+ critical services.</li>
+        <li>Collaborated with SRE & Dev teams to define SLAs, SLOs, and error budgets.</li>
       </ul>
 
-      <h3>NTT Data (2015–2017)</h3>
+      <h3>NTT Data (Mar 2015 – Feb 2017)</h3>
       <p>Senior System Administrator</p>
+      <ul>
+        <li>Managed and monitored 1000+ Linux systems across multiple regions.</li>
+        <li>Handled patching, compliance, escalation, and RCA documentation.</li>
+      </ul>
     </div>
   </section>
 
+  <!-- Education -->
   <section id="education">
     <div class="container">
       <h2>Education</h2>
-      <p>Bachelor of Engineering in Computer Science</p>
+      <p><strong>B.E. in Computer Science</strong> – Anna University (2012)</p>
     </div>
   </section>
 
+  <!-- Skills -->
   <section id="skills">
     <div class="container">
       <h2>Skills</h2>
       <ul>
-        <li>AWS, OCI</li>
-        <li>Kubernetes, Docker</li>
-        <li>Terraform, Jenkins, ArgoCD</li>
-        <li>Prometheus, Grafana, Splunk</li>
+        <li><strong>Cloud:</strong> AWS, OCI</li>
+        <li><strong>Containers:</strong> Kubernetes, Docker, ECS</li>
+        <li><strong>CI/CD:</strong> Jenkins, GitHub Actions, ArgoCD, Spinnaker</li>
+        <li><strong>Infra-as-Code:</strong> Terraform, Ansible</li>
+        <li><strong>Monitoring:</strong> Prometheus, Grafana, Splunk, Zabbix</li>
+        <li><strong>Scripting:</strong> Bash, Shell, Python (basic)</li>
       </ul>
     </div>
   </section>
 
+  <!-- Certificates -->
   <section id="certificates">
     <div class="container">
       <h2>Certificates</h2>
       <ul>
-        <li>AWS Certified Cloud Practitioner</li>
+        <li>AWS Certified Cloud Practitioner (2023)</li>
         <li>Red Hat Certified Engineer (RHCE)</li>
+        <li>Red Hat Certified System Administrator (RHCSA)</li>
       </ul>
     </div>
   </section>
 
+  <!-- Contact -->
   <section id="contact">
     <div class="container">
       <h2>Contact</h2>
       <p>Email: <a href="mailto:victorgodai1502@gmail.com">victorgodai1502@gmail.com</a></p>
       <p>LinkedIn: <a href="https://linkedin.com/in/victor-godai" target="_blank">linkedin.com/in/victor-godai</a></p>
+      <p>Resume: <a href="https://www.linkedin.com/in/victor-godai/details/featured/1751966153963/single-media-viewer/?profileId=ACoAACexA6YBeoY5Mx_F5-7UupmKZYHCDmaMwUg" target="_blank">View Resume</a></p>
     </div>
   </section>
 
+  <!-- Footer -->
   <footer>
-    <p>&copy; 2024 Victor Godai</p>
+    <div class="container">
+      <p>&copy; 2024 Victor Godai</p>
+    </div>
   </footer>
 
 </body>
