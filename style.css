@@ -22,11 +22,13 @@ section {
 
 
 .skill-box img {
-  width: 40px;
-  height: 40px;
-  margin: 8px;
+  width: 80px;  /* doubled */
+  height: 80px;
+  margin: 10px;
   vertical-align: middle;
+  filter: brightness(0) invert(1);
 }
+
 
 /* Reset & Base */
 * {
