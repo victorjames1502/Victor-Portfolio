@@ -203,5 +203,21 @@
       });
     });
   </script>
+<script>
+  const aboutSection = document.querySelector('.about-section');
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        aboutSection.classList.add('in-view');
+      }
+    });
+  }, {
+    threshold: 0.3
+  });
+
+  observer.observe(aboutSection);
+</script>
+
 </body>
 </html>
