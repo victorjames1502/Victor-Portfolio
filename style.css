@@ -14,14 +14,18 @@ section {
   border-radius: 10px;
   text-align: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease;
 }
+.skill-box:hover {
+  transform: translateY(-5px);
+}
+
 
 .skill-box img {
   width: 40px;
   height: 40px;
   margin: 8px;
   vertical-align: middle;
-  filter: brightness(0) invert(1);
 }
 
 /* Reset & Base */
