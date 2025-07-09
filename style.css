@@ -300,6 +300,60 @@ footer {
   font-size: 14px;
   color: #aaa;
 }
+/* CERTIFICATE */
+
+.certificates-list,
+.accomplishment-list {
+  margin-top: 20px;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.certificate-card {
+  background-color: #1e1e1e;
+  padding: 15px 20px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  text-align: left;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.certificate-card p {
+  margin: 0;
+  font-size: 15px;
+  color: #ccc;
+  font-family: 'Optima', sans-serif;
+}
+
+.certificate-card a {
+  color: #0e75b6;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.certificate-card a:hover {
+  text-decoration: underline;
+}
+
+#accomplishments h3 {
+  margin-top: 40px;
+  font-size: 20px;
+  color: #fff;
+  font-family: 'Optima', sans-serif;
+}
+
+.accomplishment-list li {
+  background-color: #1e1e1e;
+  padding: 12px 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  color: #ccc;
+  font-size: 15px;
+  font-family: 'Optima', sans-serif;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
 
 /* Contact */
 .contact-grid {
