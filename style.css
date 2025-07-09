@@ -287,4 +287,14 @@ footer {
   .about-image img {
     margin-bottom: 20px;
   }
+/* Responsive Skill Icon Size for Small Screens */
+@media (max-width: 600px) {
+  .skill-box img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  }
 }
