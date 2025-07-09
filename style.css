@@ -16,7 +16,7 @@ section {
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 16px 24px; /* ↓ reduced gap (row col) */
+  gap: 10px 24px; /* ↓ reduced gap (row col) */
   justify-items: center;
   margin-top: 20px;
 }
